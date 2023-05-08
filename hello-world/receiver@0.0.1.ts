@@ -6,7 +6,7 @@ class ReceiverSymbol extends Symbol {
         
     }
 
-    onMessage(done: OnMessageCallback, msg: Record<string, unknown>, vals: Record<string, unknown>): void {
+    onMessage(done: OnMessageCallback, msg: Record<string, unknown>): void {
         console.log(msg)
         done(msg)
     }

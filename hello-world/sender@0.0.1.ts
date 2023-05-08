@@ -9,7 +9,7 @@ class SenderSymbol extends Symbol {
         })
     }
 
-    onMessage(done: OnMessageCallback, msg: Record<string, unknown>, vals: Record<string, unknown>): void {
+    onMessage(done: OnMessageCallback, msg: Record<string, unknown>): void {
         console.log("Works")
         done({
             "test": "Hello, World"
