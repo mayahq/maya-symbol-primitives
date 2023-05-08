@@ -2,8 +2,11 @@ import Symbol from "https://raw.githubusercontent.com/mayahq/maya-symbol-sdk/mai
 import { OnMessageCallback } from "https://raw.githubusercontent.com/mayahq/maya-symbol-sdk/main/deps.ts";
 class SenderSymbol extends Symbol {
     
-    onInit(): void {
-        
+    onInit(send: OnMessageCallback): void {
+        // sending test message
+        send({
+            "test": "Hello, World"
+        })
     }
 
     onMessage(done: OnMessageCallback, msg: Record<string, unknown>, vals: Record<string, unknown>): void {
