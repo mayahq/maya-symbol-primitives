@@ -4,6 +4,7 @@
     "deno.suggest.imports.hosts": {
         "https://deno.land": true,
         "https://x.nest.land": true,
-        "https://crux.land": true
+        "https://crux.land": true,
+        "https://raw.githubusercontent.com/mayahq/maya-symbol-sdk/main": true
     }
 }

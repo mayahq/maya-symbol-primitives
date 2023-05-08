@@ -1,0 +1,18 @@
+{
+  "testField": {
+    "category": "NewCategory",
+    "color": "cyan",
+    "component": "input",
+    "schema": {
+      "label": "Naaice",
+      "options": {
+        "title": "Sometitle",
+        "allowInput": true,
+        "placeholder": "Nothing",
+        "types": [
+          "str"
+        ]
+      }
+    }
+  }
+}
