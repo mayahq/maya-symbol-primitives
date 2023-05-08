@@ -1,5 +1,5 @@
-import Symbol from "https://raw.githubusercontent.com/mayahq/maya-symbol-sdk/main/index.ts";
-import { OnMessageCallback } from "https://raw.githubusercontent.com/mayahq/maya-symbol-sdk/main/deps.ts";
+import { Symbol } from "../deps.ts";
+import { OnMessageCallback } from "../deps.ts";
 class SenderSymbol extends Symbol {
     
     onInit(send: OnMessageCallback): void {
